@@ -1,7 +1,7 @@
 cubes:
   - name: contact_company
-    sql_table: "`sup-dev_cmp_63073a205938a244257e6c31`.`ContactCompany`"
-    data_source: dev-db
+    sql_table: "`sup_uat_cmp_631027e01a27fdde925df028`.`ContactCompany`"
+    data_source: primary
 
     joins: []
 

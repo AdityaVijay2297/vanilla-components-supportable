@@ -1,9 +1,9 @@
-- name: Example customer 1
+- name: Dobis-uat
   securityContext:
     country: United States
-  environment: default
+  environment: UAT-D
 
-- name: Example customer 2
+- name: Sample-UAT
   securityContext:
     country: Germany
-  environment: default
+  environment: UAT-2
