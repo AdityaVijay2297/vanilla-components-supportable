@@ -1,9 +1,9 @@
-- name: Dobis-uat
+- name: UAT-C1
   securityContext:
     country: United States
-  environment: UAT-D
+  environment: Customer1UAT
 
-- name: Sample-UAT
+- name: UAT-C2
   securityContext:
     country: Germany
-  environment: UAT-2
+  environment: Customer2UAT

@@ -1,5 +1,5 @@
 const apiKey = '6cbff4e9-0691-43ce-99ce-11ad183a613d';
-const connectionName = 'UAT-UAT2'; 
+const connectionName = 'customer2-uat'; 
 
 const BASE_URL = 'https://api.us.embeddable.com'; // US
 // const BASE_URL = 'https://api.eu.embeddable.com'; // EU

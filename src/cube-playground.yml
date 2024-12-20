@@ -11,9 +11,9 @@ services:
       - CUBEJS_DEV_MODE=true
       - CUBEJS_SCHEMA_PATH=models
       - CUBEJS_DB_TYPE=mongobi
-      - CUBEJS_DB_HOST=supp-uat-biconnector.pfmm0.mongodb.net
+      - CUBEJS_DB_HOST=supportable-nonprod-biconnector.pfmm0.mongodb.net
       - CUBEJS_DB_PORT=27015
-      - CUBEJS_DB_NAME=sup_uat_cmp_631027e01a27fdde925df028
+      - CUBEJS_DB_NAME=sup-dev
       - CUBEJS_DB_USER=application_user
       - CUBEJS_DB_PASS=0agOMsyJVVgl1bIX
       - CUBEJS_DB_SSL=true

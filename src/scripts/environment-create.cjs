@@ -11,8 +11,8 @@ async function run() {
         Authorization: `Bearer ${apiKey}` /* keep your API Key secure */,
       },
       body: JSON.stringify({
-        name: 'UAT-2',
-        datasources: [{ data_source: 'Sample', connection: 'UAT-UAT2' }
+        name: 'Customer2UAT',
+        datasources: [{ data_source: 'default', connection: 'customer2-uat' }
         ],
       }),
     });
