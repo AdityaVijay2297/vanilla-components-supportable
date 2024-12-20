@@ -1,5 +1,5 @@
 const apiKey = '6cbff4e9-0691-43ce-99ce-11ad183a613d';
-const connectionName = 'customer1-uat'; 
+const connectionName = ''; 
 
 const BASE_URL = 'https://api.us.embeddable.com'; // US
 
