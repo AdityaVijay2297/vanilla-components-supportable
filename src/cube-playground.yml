@@ -13,7 +13,7 @@ services:
       - CUBEJS_DB_TYPE=mongobi
       - CUBEJS_DB_HOST=supportable-nonprod-biconnector.pfmm0.mongodb.net
       - CUBEJS_DB_PORT=27015
-      - CUBEJS_DB_NAME=sup-dev
+      - CUBEJS_DB_NAME=sup-dev_cmp_63073a205938a244257e6c31
       - CUBEJS_DB_USER=application_user
       - CUBEJS_DB_PASS=0agOMsyJVVgl1bIX
       - CUBEJS_DB_SSL=true
