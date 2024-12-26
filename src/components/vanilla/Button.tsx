@@ -15,7 +15,7 @@ export default function Button({ buttonLabel, showSpinner, disabled, onClick, ic
  return (
   <button
         disabled={disabled}
-        className={`text-[${REGULAR_FONT_SIZE}] border border-gray-300 h-[50px] rounded-full py-[16px] px-[32px] flex gap-[8px] items-center justify-center disabled:opacity-[0.6] disabled:background-[#F3F3F4] disabled:cursor-not-allowed hover:border-[#A1A5AA] pressed:background-[#F3F3F4]`}
+        className={`text-[${REGULAR_FONT_SIZE}] border border-blue-300 h-[50px] rounded-full py-[16px] px-[32px] flex gap-[8px] items-center justify-center disabled:opacity-[0.6] disabled:background-[#F3F3F4] disabled:cursor-not-allowed hover:border-[#A1A5AA] pressed:background-[#FFF]`}
         onClick={onClick} type="button"
         >
         {showSpinner

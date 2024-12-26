@@ -1,7 +1,7 @@
 cubes:
   - name: contact_company
-    sql_table: "`sup-dev_cmp_63073a205938a244257e6c31`.`ContactCompany`"
-    data_source: dev-db
+    sql_table: "ContactCompany"
+    data_source: default
 
     joins: []
 
@@ -17,52 +17,52 @@ cubes:
         type: string
 
       - name: address_address1
-        sql: "{CUBE}.`address.address1`"
+        sql: "address.address1"
         type: string
         title: "Address.address1"
 
       - name: address_address2
-        sql: "{CUBE}.`address.address2`"
+        sql: "address.address2"
         type: string
         title: "Address.address2"
 
       - name: address_city
-        sql: "{CUBE}.`address.city`"
+        sql: "address.city"
         type: string
         title: "Address.city"
 
       - name: address_county
-        sql: "{CUBE}.`address.county`"
+        sql: "address.county"
         type: string
         title: "Address.county"
 
       - name: address_county_id
-        sql: "{CUBE}.`address.county._id`"
+        sql: "address.county._id"
         type: string
         title: "Address.county.Id"
 
       - name: address_county_name
-        sql: "{CUBE}.`address.county.name`"
+        sql: "address.county.name"
         type: string
         title: "Address.county.name"
 
       - name: address_state_id
-        sql: "{CUBE}.`address.state._id`"
+        sql: "address.state._id"
         type: string
         title: "Address.state.Id"
 
       - name: address_state_name
-        sql: "{CUBE}.`address.state.name`"
+        sql: "address.state.name"
         type: string
         title: "Address.state.name"
 
       - name: address_zip
-        sql: "{CUBE}.`address.zip`"
+        sql: "address.zip"
         type: string
         title: "Address.zip"
 
       - name: mergedto
-        sql: "{CUBE}.`mergedTo`"
+        sql: "mergedTo"
         type: string
 
       - name: name
@@ -70,15 +70,15 @@ cubes:
         type: string
 
       - name: parentcompany
-        sql: "{CUBE}.`parentCompany`"
+        sql: "parentCompany"
         type: string
 
       - name: photourl
-        sql: "{CUBE}.`photoUrl`"
+        sql: "photoUrl"
         type: string
 
       - name: thumbnailurl
-        sql: "{CUBE}.`thumbnailUrl`"
+        sql: "thumbnailUrl"
         type: string
 
       - name: website
@@ -88,7 +88,3 @@ cubes:
     measures:
       - name: count
         type: count
-
-    pre_aggregations:
-      # Pre-aggregation definitions go here.
-      # Learn more in the documentation: https://cube.dev/docs/caching/pre-aggregations/getting-started
