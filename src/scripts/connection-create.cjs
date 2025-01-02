@@ -1,5 +1,5 @@
 const apiKey = '6cbff4e9-0691-43ce-99ce-11ad183a613d';
-const connectionName = 'dev-db'; 
+const connectionName = ''; 
 
 const BASE_URL = 'https://api.us.embeddable.com'; // US
 
@@ -8,11 +8,11 @@ const BASE_URL = 'https://api.us.embeddable.com'; // US
  */
 const dbType = 'mongobi'; // or bigquery, etc.
 const credentials = {
-    database: 'sup-dev_cmp_63073a205938a244257e6c31',
-    host: 'supportable-nonprod.pfmm0.mongodb.net',
+    database: 'sup_uat_cmp_631027e01a27fdde925df028',
+    host: 'supp-uat-biconnector.pfmm0.mongodb.net',
     user: 'application_user',
     password: '0agOMsyJVVgl1bIX',
-    port: 27017, // standard MongoDB port (optional for SRV)
+    port: 27015, // standard MongoDB port (optional for SRV)
     ssl: { "enabled": true },
 }
 

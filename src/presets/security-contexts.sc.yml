@@ -1,9 +1,14 @@
-- name: Example customer 1
+- name: DEV
   securityContext:
     country: United States
-  environment: default
+  environment: Dev
 
-- name: Example customer 2
+- name: UAT-C1
+  securityContext:
+    country: United States
+  environment: Customer1UAT
+
+- name: UAT-C2
   securityContext:
     country: Germany
-  environment: default
+  environment: Customer2UAT
